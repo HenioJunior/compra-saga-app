@@ -1,8 +1,11 @@
 package org.acme;
 
+import jakarta.enterprise.context.ApplicationScoped;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@ApplicationScoped
 public class CreditoService {
 
     private int creditoTotal;
